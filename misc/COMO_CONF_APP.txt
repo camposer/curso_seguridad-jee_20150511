@@ -41,6 +41,11 @@ Cómo configurar la aplicación
 		- Nombre: jdbc/blog-db
 		- Connection pool: blog-db
 
+3. Desplegar el proyecto
+	- Clic en Aplications -> Deploy
+	- Seleccionar el EAR blog.ear
+	- Finalizar
+
 ## Ejecutando la aplicación
 
 1. Abrir en el navegador
