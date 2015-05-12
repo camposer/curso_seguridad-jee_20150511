@@ -1,6 +1,11 @@
 Cómo configurar la aplicación
 =============================
 
+## Setup
+
+1. Descargar Glassfish4
+2. Instalar GlassfishTools (del Marketplace de Eclipse)
+
 ## Configuración de Base de Datos
 
 1. Iniciar el derby
@@ -9,8 +14,8 @@ Cómo configurar la aplicación
 2. Conectar a la BD (utilizado Eclipse)
 	- Ir a la perspectiva Database Development
 	- Clic derecho sobre Database Connections y hacer clic en New
-	- Especificar base de datos Derby -> Derby Client (última versión)
-	- Agregar el driver (si ya tiene Glassfish debería seleccionar ese)
+	- Especificar base de datos Derby -> GlassfishSampleDB
+	- Configurar
 		- usuario: User
 		- contraseña: 123456
 		- base de datos: blog-db
