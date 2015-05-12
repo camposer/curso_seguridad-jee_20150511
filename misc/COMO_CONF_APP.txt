@@ -23,6 +23,9 @@ Cómo configurar la aplicación
 		- puerto: 1527
 
 3. Ejecutar el script blog-db.sql dentro de blog-ejb/sql
+	- Abrir el script
+	- Seleccionar la Base de Datos a utilizar
+	- Clic derecho y Execute All
 
 ## Despliegue del proyecto en glassfish
 
