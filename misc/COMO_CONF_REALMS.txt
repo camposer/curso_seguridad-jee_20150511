@@ -1,0 +1,22 @@
+Cómo configurar REALM
+=====================
+
+1. Agregar usuarios al REALM por defecto
+	1.1. En Glassfish
+		- Clic en default-config -> Security -> Realm -> file
+		- Clic en Manage users
+		- Agregar dos usuarios
+			- usuario: admin, contraseña: admin, grupos: ADMIN,USER
+			- usuario: user, contraseña: user, grupos: USER
+		- Reiniciar glassfish (detener e iniciar startserv)
+
+		NOTAS: 
+			- Recuerde replegar y desplegar nuevamente el EAR
+
+	1.2. En Tomcat
+		- Agregar roles y usuarios al fichero TOMCAT_HOME/conf/tomcat-users.xml
+
+2. Relacionar REALM con el proyecto Web
+	- Dentro del web.xml debe especificar el nombre del REALM a utilizar. En glassfish el nombre es "file". En tomcat el nombre es "UserDatabase" (ver TOMCAT_USER/conf/server.xml).
+	- En glassfish: el proyecto Web debe tener la correlación grupos-roles en el fichero glassfish-web.xml
+
