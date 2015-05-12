@@ -1,0 +1,10 @@
+Ejercicio 1
+===========
+
+1. Añadir seguridad declarativa por formulario. Sólo podrán acceder a /articulo/listar los usuarios con el rol USER.
+
+2. Añadir una nueva acción (Servlet y JSP) "/articulo/admin" que muestre como contenido "Acceso Restringido".
+
+3. Proteger el acceso a la acción /articulo/admin para que sólo puedan acceder usuarios con el rol ADMIN.
+
+
