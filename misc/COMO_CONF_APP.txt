@@ -1,0 +1,47 @@
+Cómo configurar la aplicación
+=============================
+
+## Configuración de Base de Datos
+
+1. Iniciar el derby
+	- Ejecutar el fichero startNetworkServer.bat dentro de GLASSFISH_HOME/javadb/bin
+
+2. Conectar a la BD (utilizado Eclipse)
+	- Ir a la perspectiva Database Development
+	- Clic derecho sobre Database Connections y hacer clic en New
+	- Especificar base de datos Derby -> Derby Client (última versión)
+	- Agregar el driver (si ya tiene Glassfish debería seleccionar ese)
+		- usuario: User
+		- contraseña: 123456
+		- base de datos: blog-db
+		- host: localhost
+		- puerto: 1527
+
+3. Ejecutar el script blog-db.sql dentro de blog-ejb/sql
+
+## Despliegue del proyecto en glassfish
+
+1. Iniciar el glassfish
+	- Ejecutar el fichero startserv.bat dentro de GLASSFISH_HOME/glassfish/bin
+
+2. Crear el nuevo datasource
+	- Entrar a la consola administrativa
+
+	- Agregar JDBC Connection Pool (Resources -> JDBC -> JDBC Connection Pools)
+		- Colocar un nombre (blog-db)
+		- Seleccionar driver (Derby30)
+		- Seleccionar tipo (javax.sql.DataSource)
+		- Añadir parámetros de configuración a la BD
+			- user: user
+			- password: 123456
+			- database: blog-db
+			- connectionAttributes: ;create=true
+
+	- Agregar JDBC Resource (Resources -> JDBC -> JDBC Resources)
+		- Nombre: jdbc/blog-db
+		- Connection pool: blog-db
+
+## Ejecutando la aplicación
+
+1. Abrir en el navegador
+	- http://localhost:8080/blog-web/articulo/listar
