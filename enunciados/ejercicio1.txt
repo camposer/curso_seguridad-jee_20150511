@@ -12,6 +12,10 @@ Ejercicio 1
 5. Añada la restricción de transporte cifrado para /articulo/admin en el web.xml
 La URL sería: https://localhost:8181/blog-web/articulo/admin
 
+6. Añadir una nueva acción que cierre la sesión del usuario y redirija en la página de inicio
+
+7. Incluir un enlace en "/articulo/listar" que permita ir a "/articulo/admin". Este enlace sólo debe mostrarse si el usuario tiene el rol ADMIN
+
 NOTA: 
 	- Si prueba el formulario de autenticación con la transformación de la contraseña a SHA256, deberá colocar al usuario USER la siguiente contraseña: 04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb
 	- Recuerde reiniciar el servidor
