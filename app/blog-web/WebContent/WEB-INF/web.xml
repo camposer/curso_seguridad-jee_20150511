@@ -13,6 +13,7 @@
   </login-config>
   
   <!-- Autorización (restricciones) -->
+  <!-- 
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>articulo-listar</web-resource-name>
@@ -25,6 +26,7 @@
       <transport-guarantee>NONE</transport-guarantee>
     </user-data-constraint>
   </security-constraint>
+  -->
   
   <security-constraint>
     <web-resource-collection>
@@ -35,6 +37,9 @@
     <auth-constraint>
       <role-name>ADMIN</role-name>
     </auth-constraint>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
   </security-constraint>
     
   <!-- Autorización (roles) -->
