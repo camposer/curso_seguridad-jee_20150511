@@ -44,7 +44,15 @@ Curso de Seguridad en JEE
 	- http://es.wikipedia.org/wiki/Firma_XML
 - Apache Santuario (Java lib forX ML Signature & XML Encryption)
 	- http://santuario.apache.org/
+- Web Services Security for Java
+	- http://ws.apache.org/wss4j/
+- Apache CXF - WS-Security
+	- http://cxf.apache.org/docs/ws-security.html
+- Apache Rampart - Axis2 Security Module
+	- http://axis.apache.org/axis2/java/rampart/
 - JAAS Reference Guide
 	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html
+- Ejemplos JAAS
+	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html#Sample
 - Qué tan segura es mi contraseña
 	- https://howsecureismypassword.net/

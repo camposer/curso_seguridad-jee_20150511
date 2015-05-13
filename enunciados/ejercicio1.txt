@@ -9,4 +9,9 @@ Ejercicio 1
 
 4. Comentar la restricción de autenticación de /articulo/listar e incluir la validación en el método EJB correspondiente
 
-NOTA: Si prueba el formulario de autenticación con la transformación de la contraseña a SHA256, deberá colocar al usuario USER la siguiente contraseña: 04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb
+5. Añada la restricción de transporte cifrado para /articulo/admin en el web.xml
+La URL sería: https://localhost:8181/blog-web/articulo/admin
+
+NOTA: 
+	- Si prueba el formulario de autenticación con la transformación de la contraseña a SHA256, deberá colocar al usuario USER la siguiente contraseña: 04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb
+	- Recuerde reiniciar el servidor
