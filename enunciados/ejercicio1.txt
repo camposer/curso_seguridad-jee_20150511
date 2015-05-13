@@ -7,4 +7,6 @@ Ejercicio 1
 
 3. Proteger el acceso a la acción /articulo/admin para que sólo puedan acceder usuarios con el rol ADMIN.
 
+4. Comentar la restricción de autenticación de /articulo/listar e incluir la validación en el método EJB correspondiente
 
+NOTA: Si prueba el formulario de autenticación con la transformación de la contraseña a SHA256, deberá colocar al usuario USER la siguiente contraseña: 04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb
