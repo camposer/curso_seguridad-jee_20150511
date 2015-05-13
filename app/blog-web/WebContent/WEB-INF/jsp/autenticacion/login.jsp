@@ -26,7 +26,7 @@
 		Usuario: <input type="text" id="username" name="j_username"><br>
 		Contraseña: 
 		<input type="hidden" name="j_password" id="j_password">
-		<input type="text" id="password"><br> 
+		<input type="password" id="password"><br> 
 		<input type="button" value="Login" onclick="login()">
 	</form>
 </body>
