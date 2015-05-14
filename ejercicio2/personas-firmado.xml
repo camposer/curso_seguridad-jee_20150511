@@ -1,0 +1,31 @@
+<personas xmlns="urn:example:personas"><dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Id="G9a3cee70-cfa4-44a9-9617-4655cf37a478"><dsig:SignedInfo><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><dsig:Reference URI="#G9eba71c4-2e15-46fd-b417-d5c3ddfdfc9b"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>5sYC7UVaaWgjLC1IjfYb8L+63ss=</dsig:DigestValue></dsig:Reference><dsig:Reference URI="#Gdd139b8b-00d5-4caf-98d2-2d95dfd2dc0c"><dsig:Transforms><dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><dsig:DigestValue>1Ae89zCTuFifo9klu8R8dQBW868=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue>T5shAvONAYrN/XEegcuMTKtzsFflhYAJB4hYkf6QT29DeK6hyKeA+QNta9xTy9Ylqtc38d4hoAy0
+nmXh/orYahbGRFIEwLdIIYUnBYTonkkE4iCimKl9UX20NZvUAzARs2sVSLGfySUTOb1NcdrqTSo0
+3eoC66YmVKywgNaLojhuOYoA1FkrpZJRLaKacEwtfdlgXc5vtR0NcO3yqGW/7HrSrxHRmp6rhwMh
+cy0+C4m78BfJr25imsZtC3TraTggGvHiLcRbZIKMFc4qhUqF7XD1OkVqe6b2ChZo8qQnDRYLsHPJ
+kBXRvDKcbMNb/DxZLWZXQXTnY7D+vvGdEHDYXA==
+</dsig:SignatureValue><dsig:KeyInfo Id="G79306e2f-649f-4e6d-be26-7a248f7226da"><dsig:X509Data><dsig:X509Certificate>MIIDazCCAlOgAwIBAgIEAzJnqjANBgkqhkiG9w0BAQsFADBmMQswCQYDVQQGEwJFUzEPMA0GA1UE
+CBMGTWFkcmlkMQ8wDQYDVQQHEwZNYWRyaWQxEDAOBgNVBAoTB1Vua25vd24xETAPBgNVBAsTCFBl
+cnNvbmFsMRAwDgYDVQQDEwdSb2RvbGZvMB4XDTE1MDUxNDEwNTkxNVoXDTE1MDgxMjEwNTkxNVow
+ZjELMAkGA1UEBhMCRVMxDzANBgNVBAgTBk1hZHJpZDEPMA0GA1UEBxMGTWFkcmlkMRAwDgYDVQQK
+EwdVbmtub3duMREwDwYDVQQLEwhQZXJzb25hbDEQMA4GA1UEAxMHUm9kb2xmbzCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAKPtei5Ldhfd5CMnEH53X4QzuuwHGb++IfjFozhVbyq4g45G
+WP3kfTzlXLBcFJo6+g3rjzqJDGNCFUjR3HA9D360aDfJvmwR1oIGT5GvxygVaUGNFOpAbP76WF9M
+Z0e2Yh/s+x2mlwP64PchQTI+OnLZOT6sQIpMjPosHsoMJQwzJASgCgsfva8lqtITqu+t/6u0Sil0
+L8iUsdqTD9VGK5zMZ+T3ILfkH2utFtZ4fw+G5Zq3TGrenmSlUVy8tkomShnmhQm9bxnH1kaKyDJR
+U4hZzJNBladRWFiuWnWuYoLaWIVUSPjMv4WeqftoRreCe1OsLsEmwAxFDX0tQQukj/ECAwEAAaMh
+MB8wHQYDVR0OBBYEFLtZXE2O+Mh40i8LZFwM5ploWFmJMA0GCSqGSIb3DQEBCwUAA4IBAQBiJGyK
+EzjTVygv29PN2hyX0aIRKuzWlCZWSIPn0lIcSTsZ7j+W3r61VSY4A8vypdeepK8tapNEEO1rqTFh
+vclI817xgxaB31fFMOaKJ0hcFiF5og1GprJjZtgfJxupU4bUtqm4P6iQ1iLGEK0wtgIGudDqcEXP
+rhXZmUzBkT+8Bzpm2WXcMCNxZCTmDtdtdK07iGe8OiFwyGDUzHOoqUqqriYyiv24oA3prLxUqAF3
+nLN+C0eC0o9RNxFSfAzKpFQt/HaqhzpQUFpelxGRrtI3WCEz+Pa93iiCGw9ni4975rrbKHLnPXWk
+sdXY/nSLOrHiiQDEY9c+bG0CK1h8nAgX
+</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo></dsig:Signature>
+	<persona>
+		<nombre>Juan</nombre>
+		<apellido Id="G9eba71c4-2e15-46fd-b417-d5c3ddfdfc9b">Pérez</apellido>
+	</persona>
+	<persona>
+		<nombre>María</nombre>
+		<apellido Id="Gdd139b8b-00d5-4caf-98d2-2d95dfd2dc0c">García</apellido>
+	</persona>
+</personas>

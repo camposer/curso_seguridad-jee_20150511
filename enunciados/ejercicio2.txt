@@ -8,6 +8,12 @@ Ver:
 
 Para ejecutar: clic derecho sobre la clase y Run As -> JUnit Test
 
+
+
+
+
+
+
 2. Firmar el documento personas.xml y almacenar el documento original con su firma en personas-firmado.xml
 NOTA: Debe utilizar el keystore generado anteriormente o crear uno nuevo
 
@@ -23,3 +29,10 @@ NOTA: Debe utilizar el keystore generado anteriormente o crear uno nuevo
 		<apellido>García</apellido>
 	</persona>
 </personas>
+
+
+
+
+
+
+
