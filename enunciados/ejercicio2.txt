@@ -1,0 +1,24 @@
+Pruebas de XML-Sig y XML-Enc
+
+1. Descargar el código de https://github.com/camposer/testcases compilar y ejecutar las clases de Test
+
+Ver:
+	- sanctuary-xml-encryption-demo/EncryptionDOMTest
+	- sanctuary-xml-encryption-demo/EncryptionStAXTest
+
+Para ejecutar: clic derecho sobre la clase y Run As -> JUnit Test
+
+<!-- settings.xml -->
+<settings>
+  <proxies>
+   <proxy>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>proxy.indra.es</host>
+      <port>8080</port>
+      <username>xxx</username>
+      <password>xxx</password>
+    </proxy>
+  </proxies>
+</settings>
+

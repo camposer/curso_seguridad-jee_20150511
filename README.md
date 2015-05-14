@@ -12,9 +12,9 @@ Curso de Seguridad en JEE
 	- Principales vulnerabilidades para las aplicaciones web
 	- Dimensiones de la seguridad web
 	- Seguridad en los mensajes
-	- Xml encryption : confidencialidad en los mensajes
-	- Xml signature : integridad, autenticación y no repudio en los mensajes
-	- WS-security : extensión de SOAP para seguridad en mensajes
+		- Xml encryption : confidencialidad en los mensajes
+		- Xml signature : integridad, autenticación y no repudio en los mensajes
+		- WS-security : extensión de SOAP para seguridad en mensajes
 	- Certificados x.509. Firma. Cifrado
 	- Especificaciones de JCP
 - Seguridad en la capa de negocio
@@ -40,21 +40,23 @@ Curso de Seguridad en JEE
 	- http://docs.oracle.com/javaee/6/tutorial/doc/gijrp.html
 - Apache Tomcat 7.0 - Realm Configuration HOWTO
 	- http://tomcat.apache.org/tomcat-7.0-doc/realm-howto.html
+- JAAS Reference Guide
+	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html
+- Ejemplos JAAS
+	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html#Sample
 - XML Encryption
 	- http://es.wikipedia.org/wiki/XML_Encryption
 - XML Signature
 	- http://es.wikipedia.org/wiki/Firma_XML
 - Apache Santuario (Java lib forX ML Signature & XML Encryption)
 	- http://santuario.apache.org/
+- WS-Security
+	- http://en.wikipedia.org/wiki/WS-Security
 - Web Services Security for Java
 	- http://ws.apache.org/wss4j/
 - Apache CXF - WS-Security
 	- http://cxf.apache.org/docs/ws-security.html
 - Apache Rampart - Axis2 Security Module
 	- http://axis.apache.org/axis2/java/rampart/
-- JAAS Reference Guide
-	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html
-- Ejemplos JAAS
-	- http://docs.oracle.com/javase/7/docs/technotes/guides/security/jaas/JAASRefGuide.html#Sample
 - Qué tan segura es mi contraseña
 	- https://howsecureismypassword.net/
