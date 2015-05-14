@@ -27,6 +27,15 @@
 <body>
 	<h1>Artículos</h1>
 	<%
+		if (request.isUserInRole("ADMIN")) {
+	%>
+		<a href="">Administrar artículos</a><br>
+	<%
+		}
+	%>
+	
+	
+	<%
 		List<Articulo> articulos = (List<Articulo>) request.getAttribute("articulos");
 		if (articulos != null)  for (Articulo a : articulos) { 
 	%>

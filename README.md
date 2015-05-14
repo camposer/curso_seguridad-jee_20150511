@@ -32,6 +32,8 @@ Curso de Seguridad en JEE
 	- https://github.com/camposer/curso_testing
 - Curso de Tomcat
 	- https://github.com/camposer/curso_tomcat
+- Curso de Spring Security
+	- https://github.com/camposer/curso_spring-security
 - Seguridad Web
 	- http://es.slideshare.net/camposer/seguridad-web-40313501
 - The Java EE 6 Tutorial - Part VII. Security
