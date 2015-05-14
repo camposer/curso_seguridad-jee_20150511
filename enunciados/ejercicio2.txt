@@ -8,17 +8,18 @@ Ver:
 
 Para ejecutar: clic derecho sobre la clase y Run As -> JUnit Test
 
-<!-- settings.xml -->
-<settings>
-  <proxies>
-   <proxy>
-      <active>true</active>
-      <protocol>http</protocol>
-      <host>proxy.indra.es</host>
-      <port>8080</port>
-      <username>xxx</username>
-      <password>xxx</password>
-    </proxy>
-  </proxies>
-</settings>
+2. Firmar el documento personas.xml y almacenar el documento original con su firma en personas-firmado.xml
+NOTA: Debe utilizar el keystore generado anteriormente o crear uno nuevo
 
+3. Verificar si la firma del documento personas-firmado.xml es válida.
+
+<personas>
+	<persona>
+		<nombre>Juan</nombre>
+		<apellido>Pérez</apellido>
+	</persona>
+	<persona>
+		<nombre>María</nombre>
+		<apellido>García</apellido>
+	</persona>
+</personas>
